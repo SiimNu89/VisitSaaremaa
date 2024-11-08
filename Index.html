@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script>
+  <title>Visit Saaremaa</title>
+  <style>
+    .scrolled {
+        background-color: white;
+        transition: background-color 0.3s ease;
+        color: black ;
+        transition: color 0.3s ease;
+    }
+</style>
+</head>
+<body>
+    <div class="relative h-[600px] bg-cover bg-center" style="background-image: url('https://visitsaaremaa.ee/wp-content/uploads/2024/10/Lenda-peale.-mitte-ule.png');">
+        <div class="absolute inset-0 bg-black bg-opacity-5 flex justify-left items-center text-white text-6xl p-14 font-bold">
+            <p>Lenda peale.Mitte 
+                üle</p>
+        </div>
+    </div>
+    
+        
+    <!-- Navigatsioon -->
+    <nav id="nav" class="uppercase flex justify-center items-center font-medium space-x-12 fixed top-0 left-0 w-full background-color:white bg-opacity-0 z-50 transition-all duration-300 hover:bg-white hover:bg-opacity-100 color:white hover:text-black">
+        <img class="h-20 w-40 object-cover" src="https://kht.ee/images/Partnerid/VisitSaaremaa.png" alt="Visit Saaremaa">
+        <div class="flex space-x-12 items-center">
+            <a href="" class=""><b>Planeeri</b></a>
+            <a href="" class=""><b>Avasta</b></a>
+            <a href="" class=""><b>Naudi</b></a>
+            <a href="" class=""><b>Viikingite saar</b></a>
+            <a href="" class=""><b>info</b></a>
+            <button class="font-medium inline-flex items-center text-white hover:text-black" type="button" data-dropdown-toggle="dropdown"> ET </button>
+            <!-- Dropdown -->
+            <div class="hidden bg-white text-base z-50 list-none divide-y divide-gray-100 rounded shadow my-4" id="dropdown">
+                <div class="px-4 py-3">
+                    <span class="block text-sm"><b>ET</b></span>
+                    <ul class="py-1">
+                        <li>
+                            <a href="#" class="block text-sm text-gray-700 py-1 hover:bg-gray-100">EN</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block py-1">FIN</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <img src="https://openweathermap.org/img/w/01d.png" alt="">
+            <a>12.3 &deg;C.</a>
+            <div class="flex items-center">
+                <img src="https://t3.ftcdn.net/jpg/05/99/84/86/360_F_599848646_MdK7wVDJQZygObyKEahVkOuhh0IGdTt3.jpg" alt="Search Icon" class="h-10 w-10 mr-2">
+        
+     </nav>
+     <!--Pildid ja viited-->
+     <!--Esimene rida-->
+     <main class="pt-24">
+     <div class="flex gap-6 mt-8  text-[50px] ml-36">
+        <h1><b>Avasta Saaremaa</b></h1>
+     </div>
+     <div class="grid grid-cols-12 col-start-2 gap-6 mt-8">
+        <div class="col-span-5 col-start-2 gap-12 relative mx-auto flex justify-center overflow-hidden h-[400px] rounded-lg">
+            <img class="object-cover rounded-lg transition-transform duration-700 transform hover:scale-125" src="https://visitsaaremaa.ee/wp-content/uploads/2024/11/hanso-oige.jpg" alt="">
+
+        </div>
+        <div class="col-span-5 relative flex justify-center overflow-hidden h-[400px] w-[550px] rounded-lg">
+            <img class="object-cover rounded-lg transition-transform duration-700 transform hover:scale-125" src="https://visitsaaremaa.ee/wp-content/uploads/2024/10/Lenda-peale-Saaremaale-scaled.jpg" alt="">
+            <div class="absolute w-full bottom-0 mb-10 left-10 text-white">
+                <p class="text-[26px]"><b>Lenda peale.Mitte üle.</b></p>
+            </div>
+        </div>
+        <!--Teine Rida-->
+
+        <div class="col-span-5 col-start-2 relative mx-auto flex justify-center overflow-hidden h-[400px] w-[550px] rounded-lg">
+            <img class="object-cover rounded-lg transition-transform duration-700 transform hover:scale-125" src="https://visitsaaremaa.ee/wp-content/uploads/2024/05/N9A6631-copy-scaled.jpg" alt="">
+            <div class="absolute w-full bottom-0 mb-10 left-10 text-white">
+                <p class="text-[26px]"><b>Saarte kenad uued kohad</b></p>
+            </div>
+        </div>
+        <div class="col-span-5 relative flex justify-center overflow-hidden h-[400px] w-[550px] rounded-lg">
+            <img class="object-cover rounded-lg transition-transform duration-700 transform hover:scale-125" src="https://visitsaaremaa.ee/wp-content/uploads/2024/11/55A8752-scaled.jpg" alt="">
+            <div class="absolute w-full bottom-0 mb-10 left-10 text-white">
+                <p class="text-[26px]"><b>Saaremaa terviseveed 200</b></p>
+            </div>
+        </div>
+        <!--Kolmas rida-->
+
+        <div class="col-span-5 col-start-2 gap-12 relative mx-auto flex justify-center overflow-hidden h-[400px] w-[550px] rounded-lg">
+            <img class="object-cover transition-transform duration-700 transform hover:scale-125" src="https://visitsaaremaa.ee/wp-content/uploads/2024/02/55A6905.jpg" alt="">
+            <div class="absolute w-full bottom-0 mb-10 left-10 text-white">
+                <p class="text-[26px]"><b>Saarte maitsed</b></p>
+            </div>
+        </div>
+        <div class="col-span-5 relative flex justify-center overflow-hidden h-[400px] w-[550px] rounded-lg">
+            <img class="object-cover transition-transform duration-700 transform hover:scale-125" src="https://visitsaaremaa.ee/wp-content/uploads/2024/05/Folk-dancers-3-Kristina-Magi-copy-scaled.jpg" alt="">
+            <div class="absolute w-full bottom-0 mb-10 left-10 text-white">
+                <p class="text-[26px]"><b>Saarte Sündmused</b></p>
+            </div>
+        </div>
+        <!--Neljas rida-->
+        <div class="col-span-10 col-start-2 mx-auto flex justify-center overflow-hidden h-[400px] w-full rounded-lg relative">
+            <!-- Pilt -->
+            <img class="object-cover transition-transform duration-700 transform hover:scale-125 w-full h-full" src="https://visitsaaremaa.ee/wp-content/uploads/2022/12/Liitu-visit-saaremaa-uudiskirjaga-scaled.jpg" alt="">
+        
+            <!-- Vertikaalne paigutus: Kasti konteiner -->
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col space-y-4 w-1/3">
+                <!-- Kast 1 -->
+            <div class="bg-white bg-opacity-70 p-6 rounded-lg shadow-lg">
+                    <h2 class="text-xl font-bold text-black mb-4">Sinu nimi</h2>
+                    <input type="text" placeholder="" class="w-full p-2 border border-gray-300 rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+        
+                <!-- Kast 2 -->
+                <div class="bg-white bg-opacity-70 p-6 rounded-lg shadow-lg">
+                    <h2 class="text-xl font-bold text-black mb-4">Sinu e-mail</h2>
+                    <textarea placeholder="" class="w-full p-2 border border-gray-300 rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-blue-500 h-24"></textarea>
+                </div>
+            </div>
+        </div>
+        
+        <!--Viies rida-->
+        <a href="https://www.facebook.com/visitsaaremaa/" target="_blank" class="col-start-2 col-span-5 flex items-center p-4 text-white bg-[#3b5998]">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo" class="h-6 w-6 mr-2">
+            <p class="text-[26px] font-bold">Facebook</p>
+        </a>
+
+        <a href="https://www.instagram.com/visit_saaremaa/" target="_blank" class="flex items-center p-4 col-span-5 text-white bg-[#5851db]">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo" class="h-6 w-6 mr-2">
+            <p class="text-[26px] font-bold">Instagram</p>
+        </a>
+        
+
+
+
+     </div>
+     <!--JALUS-->
+     <footer class="bg-[white] text-black py-8">
+        <div class="flex justify-between gap-12 mx-auto px-6 max-w-screen-xl">
+
+          <!-- Esimene veerg-->
+          <div class="flex-1">
+            <h2 class="text-xl text-[#c9184a] font-semibold mb-4">Info</h2>
+            <ul>
+              <li><a href="https://visitsaaremaa.ee/planeeri/transport/" class="text-sm hover:text-[#ffafcc]">Transport</a></li>
+              <li><a href="https://visitsaaremaa.ee/planeeri/majutus/" class="text-sm hover:text-[#ffafcc]">Majutus Saaremaal</a></li>
+              <li><a href="https://visitsaaremaa.ee/planeeri/meite-maitsed/" class="text-sm hover:text-[#ffafcc]">Meie maitsed</a></li>
+              <li><a href="https://visitsaaremaa.ee/planeeri/saaremaa-sundmused/" class="text-sm hover:text-[#ffafcc]">Saaremaa sündmused</a></li>
+            </ul>
+          </div>
+
+          <!-- Teine veerg-->
+          <div class="flex-1">
+            <h2 class="text-xl text-[#c9184a] font-semibold mb-4">Organisatsioon</h2>
+            <ul>
+              <li><a href="https://visitsaaremaa.ee/info/visit-saaremaa/" class="text-sm hover:text-[#ffafcc]">Visit Saaremaa</a></li>
+              <li><a href="https://visitsaaremaa.ee/info/visit-saaremaa/tootajad/" class="text-sm hover:text-[#ffafcc]">Töötajad</a></li>
+              <li><a href="https://visitsaaremaa.ee/uudiskiri-turismiprofessionaalile/" class="text-sm hover:text-[#ffafcc]">Uudiskiri turismiprofessionaalile</a></li>
+            </ul>
+          </div>
+
+          <!-- Kolmas veerg-->
+          <div class="flex-1">
+            <h2 class="text-xl text-[#c9184a] font-semibold mb-4">Kontakt</h2>
+            <ul>
+              <li><a href="" class="text-sm hover:text-[#ffafcc]">Tallinna 2, Kuressaare</a></li>
+              <li><a href="tel:+3724533120" class="text-sm hover:text-[#ffafcc]">+372 45 33 120</a></li>
+              <li><a href="mailto:info@visitsaaremaa.ee" class="text-sm hover:text-[#ffafcc]">info@visitsaaremaa.ee</a></li>
+            </ul>
+          </div>
+          <!--Neljas veerg-->
+          <div class="flex-1">
+            <img src="https://visitsaaremaa.ee/wp-content/uploads/2017/11/Turismiinfo-logo-viimane-e1511308278934.jpg" class="w-24 h-26 object-contain mx-auto">
+          </div>
+        </div>
+    </footer>
+
+
+     </main>
+     <script>
+        const header = document.getElementById('nav');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 1) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
